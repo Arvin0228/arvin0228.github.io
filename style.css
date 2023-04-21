@@ -6,11 +6,27 @@ body {
 
 /* Define styles for the header section */
 header {
-  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   color: white;
   text-align: center;
-  padding: 20px;
 }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo-container img {
+  width: 100px;
+  height: 100px;
+}
+
 
 /* Define styles for the main section */
 main {
